@@ -33,7 +33,7 @@ class Dice {
 let button: HTMLElement = document.getElementById('dice-button');
 let uniArr = ['\u2680', '\u2681', '\u2682', '\u2683', '\u2684', '\u2685'];
 
-let dieArr = [];
+let dieArr: Array<Dice> = [];
 button.addEventListener('click', function () {
     dieArr.push(new Dice())
 });
