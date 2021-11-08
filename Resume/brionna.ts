@@ -62,16 +62,17 @@ console.log('Skills: ');
 displaySkill('JavaScript ', true);  
 displaySkill('HTML', true);
 displaySkill(' CSS ', true); 
-displaySkill(' * Java' + ' * C++' +
-' * Python2' +
-' * Visual Studio Code' +
-' *Linear Programming' +
-' * OpenACC' + 
-' * OpenMP' + 
-' * OpenGL' +
-' * Angular 5' +
-' * GitHub' +
-' * NodeJS' +
-' * Typescript');
+displaySkill(' * Java', false);
+displaySkill(' * C++', false);
+displaySkill(' * Python2', false);
+displaySkill(' * Visual Studio Code', false);
+displaySkill(' *Linear Programming', false);
+displaySkill(' * OpenACC', false);
+displaySkill(' * OpenMP', false); 
+displaySkill(' * OpenGL', false);
+displaySkill(' * Angular 5', false);
+displaySkill(' * GitHub', false);
+displaySkill(' * NodeJS', false);
+displaySkill(' * Typescript', false);
 
 }
